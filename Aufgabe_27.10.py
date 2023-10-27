@@ -41,18 +41,18 @@ check_score(1234, 1000)"""
 def print_number_triangle(rows):
     for x in range(1, rows + 1):
         # Leerzeichen vor den Zahlen einfügen
-        print(" " * (rows - x), end="")
+        print(" " * (rows - x), end=" ")
         
         # Zahlen in aufsteigender Reihenfolge ausgeben
         for y in range(1, 2 * x):
-            print(y, end="")
+            print(y, end=" ")
         
         print()  # Zeilenumbruch am Ende jeder Zeile
 
 
-print_number_triangle(6) # Aufruf der Funktion mit der Anzahl der Zeilen
+print_number_triangle(5) # Aufruf der Funktion mit der Anzahl der Zeilen
 
-
+"""
 def print_number_pattern(rows):
     num = 1
     for x in range(1, rows + 1):
@@ -63,3 +63,4 @@ def print_number_pattern(rows):
 
 # Aufruf der Funktion mit der Anzahl der Zeilen
 print_number_pattern(4)
+"""
