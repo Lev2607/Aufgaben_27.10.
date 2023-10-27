@@ -27,7 +27,7 @@ def do_something(x, y):
         print("invalid range")    
 
 do_something(20, 16)
-do_something(101, 18)"""
+do_something(101, 18)
 
 
 def check_score(points, highscore):
@@ -36,4 +36,30 @@ def check_score(points, highscore):
     else:
         print("Sorry, try again")    
 
-check_score(1234, 1000)        
+check_score(1234, 1000)"""
+
+def print_number_triangle(rows):
+    for x in range(1, rows + 1):
+        # Leerzeichen vor den Zahlen einfügen
+        print(" " * (rows - x), end="")
+        
+        # Zahlen in aufsteigender Reihenfolge ausgeben
+        for y in range(1, 2 * x):
+            print(y, end="")
+        
+        print()  # Zeilenumbruch am Ende jeder Zeile
+
+
+print_number_triangle(6) # Aufruf der Funktion mit der Anzahl der Zeilen
+
+
+def print_number_pattern(rows):
+    num = 1
+    for x in range(1, rows + 1):
+        for y in range(1, x + 1):
+            print(num, end="")
+            num += 1
+        print()  # Zeilenumbruch am Ende jeder Zeile
+
+# Aufruf der Funktion mit der Anzahl der Zeilen
+print_number_pattern(4)
