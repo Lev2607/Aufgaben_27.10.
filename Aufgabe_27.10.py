@@ -21,7 +21,7 @@ print ("valid range")
 -> Aufgabe: vereinfache den Code
 """
 def do_something(x, y):
-    if x in range(1, 100) and y in range(11, 20):
+    if x in range(1, 101) and y in range(11, 20):
         print("valid range")
     else:
         print("invalid range")    
