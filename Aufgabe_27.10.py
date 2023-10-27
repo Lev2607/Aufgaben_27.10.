@@ -19,7 +19,7 @@ if x > 0 and x < 100 and y > 10 and y < 20:
 print ("valid range")
 
 -> Aufgabe: vereinfache den Code
-"""
+
 def do_something(x, y):
     if x in range(1, 101) and y in range(11, 20):
         print("valid range")
@@ -27,4 +27,14 @@ def do_something(x, y):
         print("invalid range")    
 
 do_something(20, 16)
-do_something(101, 18)
+do_something(101, 18)"""
+
+
+points = 1234
+highscore = 1000
+
+def check_score(points, highscore):
+    if points > highscore:
+        print("Congratulations, this is a new highscore")
+
+check_score(points, highscore)        
