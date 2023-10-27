@@ -36,5 +36,7 @@ highscore = 1000
 def check_score(points, highscore):
     if points > highscore:
         print("Congratulations, this is a new highscore")
+    else:
+        print("Sorry, try again")    
 
 check_score(points, highscore)        
