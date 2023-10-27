@@ -15,7 +15,7 @@ print("Die letzte Fahrt enthält", int(kisten_letzte_fahrt), "Kisten.")
 
 """
 def do_something(x,y):
-if x > 0 and x < 100 and y>10 and y<20:
+if x > 0 and x < 100 and y > 10 and y < 20:
 print ("valid range")
 
 -> Aufgabe: vereinfache den Code
