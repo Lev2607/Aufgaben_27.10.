@@ -30,13 +30,10 @@ do_something(20, 16)
 do_something(101, 18)"""
 
 
-points = 1234
-highscore = 1000
-
 def check_score(points, highscore):
     if points > highscore:
         print("Congratulations, this is a new highscore")
     else:
         print("Sorry, try again")    
 
-check_score(points, highscore)        
+check_score(1234, 1000)        
